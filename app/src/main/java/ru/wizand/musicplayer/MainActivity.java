@@ -1,6 +1,9 @@
 package ru.wizand.musicplayer;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.SeekBar;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +23,14 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public void play(View view) {
+    }
+
+    public void next(View view) {
+    }
+
+    public void previous(View view) {
     }
 }
